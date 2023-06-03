@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fira+Sans&display=swap" rel="stylesheet">
+    <style>
+        p{
+            /* font-style: italic; */
+            font-size: larger;
+            font-family: 'EB Garamond', serif;
+font-family: 'Fira Sans', sans-serif;
+            font-weight: 900;
+            line-height: 50px;
+        }
+        #FirstPara{
+            /* This is called named color */
+            background-color: yellow;
+            color: brown;
+        }
+        #SecondPara{
+            /* This is called rgb color */
+            background-color: rgb(30, 139, 37);
+        }
+        .FirstClass{
+            /* This is called rgba color */
+            background-color: rgba(0, 95, 87, 0.646);
+        }
+        .SecondClass{
+            /* This is called Hexadecimal Color */
+            background-color: #003d889b;
+        }
+        /* HSL Colors
+HSL color values are supported in Edge, Chrome, Firefox, Safari, Opera 10+, and in IE9+.
+
+HSL stands for Hue, Saturation, and Lightness.
+
+HSL color values are specified with:
+
+hsl(hue, saturation, lightness)
+
+Hue
+Hue is a degree on the color wheel from 0 to 360. 0 (or 360) is red, 120 is green, 240 is blue.
+
+Saturation
+Saturation can be described as the intensity of a color. It is a percentage value from 0% to 100%.
+
+100% is full color, no shades of gray.
+
+50% is 50% gray, but you can still see the color.
+
+0% is completely gray; you can no longer see the color.
+
+Lightness
+The lightness of a color can be described as how much light you want to give the color, where 0% means no light (dark), 50% means 50% light (neither dark nor light), and 100% means full light.
+
+ */
+
+        #ThirdPara{
+            background-color: hsl(127, 58%, 65%);
+        }
+        /* HSLA Color Values
+HSLA color values are an extension of HSL color values, with an Alpha channel - which specifies the opacity for a color.
+
+An HSLA color value is specified with:
+
+hsla(hue, saturation, lightness, alpha)
+
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all): */
+
+.ThirdClass{
+    background-color: hsla(120, 100%, 50%, 0.3);
+}
+
+    </style>
+</head>
+<body>
+    
+    <h1>Welcome to Coding Journey</h1>
+
+    <p id="FirstPara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam culpa laboriosam non repudiandae dolore ad sint enim aperiam ea?</p>
+
+    <p id="SecondPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam sed odio explicabo impedit recusandae nihil repellendus magni aperiam hic! Officia tempora voluptatum a, consequuntur pariatur accusamus totam ipsum et.</p>
+
+    <p class="FirstClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sequi illum ducimus sint nihil earum tempora autem ad amet? Labore adipisci facere aspernatur ipsam nobis, ab provident quo amet ex eveniet laborum vero accusamus excepturi dolor! Aspernatur, accusamus harum asperiores possimus nisi explicabo? Temporibus, dolore nihil? Ab consectetur possimus esse nisi neque, eveniet facilis veritatis iusto aliquid perspiciatis hic culpa!</p>
+
+    <p class="SecondClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus nulla tenetur expedita totam nam quod praesentium, necessitatibus dolorum exercitationem nostrum voluptate, illo consequatur. Vero quae officiis atque ut accusantium earum blanditiis, ducimus harum quas repellat reiciendis eligendi libero, consequuntur dicta tempore beatae doloribus voluptates!</p>
+
+    <p id="ThirdPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus recusandae error dolor blanditiis quasi, cupiditate quaerat deleniti quibusdam molestias mollitia dolores illo numquam explicabo, eveniet ea quae ipsa iusto commodi aliquid. Dolorem, amet sunt.</p>
+
+    <p class="ThirdClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit harum debitis iusto qui sequi, minima aliquam beatae ut excepturi voluptatem, praesentium ipsa iure illum earum saepe. Rem neque perferendis doloribus nulla. Totam, alias?</p>
+
+</body>
+</html>
