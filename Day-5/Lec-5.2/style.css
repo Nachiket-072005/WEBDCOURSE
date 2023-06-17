@@ -23,6 +23,7 @@ p {
     button {
     background-color: white;
     color: blueviolet;
+ 
     }
 
     textarea {
@@ -30,5 +31,5 @@ p {
     }
 
     span {
-    text-decoration: underline;
+    text-decoration: underline black;
     }
