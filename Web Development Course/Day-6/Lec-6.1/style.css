@@ -1,0 +1,50 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #b92b27;
+}
+
+#login, #signup, #signin{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Descendent Selector */
+nav ul li a{
+   color: #b92b27 ;
+   text-decoration: none;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Child Selector */
+div > input{
+    background-color: yellow;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+/* Sibling Selector */
+p + h3{
+    text-decoration: underline;
+}
+
+/* #myId p{
+    color: green;
+} */
+
+div[id="myId"] p {
+    color: green;
+}
