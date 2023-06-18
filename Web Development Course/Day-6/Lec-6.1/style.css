@@ -1,3 +1,9 @@
+h3{
+    background-color: bisque !important;
+}
+
+
+
 *{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -47,4 +53,36 @@ p + h3{
 
 div[id="myId"] p {
     color: green;
+}
+
+/* Pseudo Class */
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+p:active{
+    background-color: grey;
+}
+
+input[type="radio"]:checked + label{
+    font-weight: bold;
+    color: green;
+}
+
+div:nth-of-type(2){
+    background-color: blanchedalmond;
+}
+
+/* Pseudo Elements */
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: yellow;
 }
