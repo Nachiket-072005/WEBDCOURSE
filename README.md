@@ -17,4 +17,4 @@
 
 ## Link Of Projects
 
-- > More Tables<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-5
+- > More Tables<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-7
