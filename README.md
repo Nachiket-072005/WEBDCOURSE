@@ -22,4 +22,7 @@
 - >  Event Registration Form<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-9
 - >  Job Application Form<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-9/Lec-9.1
 - >  Complex Form<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-9/Lec-9.2
-- >   Resume Building<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-10
+- >  Resume Building<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-10
+- >  FAQ Page<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-10/Lec-10.1
+- >  More Peoject<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-11/Lec-11.1
+- >  Favicon, Meta & Title<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-12 
