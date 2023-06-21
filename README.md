@@ -27,3 +27,4 @@
 - >  FAQ Page<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-10/Lec-10.1
 - >  More Peoject<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-11/Lec-11.1
 - >  Favicon, Meta & Title<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-12
+- >  Traffic Signal Light<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-7/Lec-7.1/
