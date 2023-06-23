@@ -19,6 +19,7 @@
 
 ## Link Of Projects
 
+- >  Amazon Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/
 - >  More Tables<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-7
 - >  Basic Details Forms<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-8
 - >  Event Registration Form<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-9
