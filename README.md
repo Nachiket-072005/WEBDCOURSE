@@ -12,13 +12,13 @@
  - > Day - 5<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-5/
       - >  Ozymandias Poem Practice<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-5/Lec-5.2 
  - > Day - 6<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-6/
- - > Facebook Sign Up Form Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Practice%20Questions/
  - > Day - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-7/  
 
 
 
 ## Link Of Projects
 
+- >  Facebook Sign Up Form Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Practice%20Questions/
 - >  Amazon Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/
 - >  More Tables<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-7
 - >  Basic Details Forms<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-8
