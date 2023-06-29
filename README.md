@@ -12,7 +12,8 @@
  - > Day - 5<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-5/
       - >  Ozymandias Poem Practice<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-5/Lec-5.2 
  - > Day - 6<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-6/
- - > Day - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-7/  
+ - > Day - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-7/
+ - > Lec - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Lec-17/ 
 
 
 
