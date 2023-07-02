@@ -21,6 +21,7 @@
 
 ## Link Of Projects
 
+- >  Photography Website<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Mini_Projects/
 - >  Facebook Sign Up Form Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Practice%20Questions/
 - >  Amazon Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/
 - >  More Tables<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-7
