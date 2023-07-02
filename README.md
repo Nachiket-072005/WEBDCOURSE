@@ -13,8 +13,10 @@
       - >  Ozymandias Poem Practice<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-5/Lec-5.2 
  - > Day - 6<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-6/
  - > Day - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-7/
- - > Lec - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Lec-17/ 
-
+ - > Lec - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Lec-17/
+ - > Day - 10<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.3/
+ - > Loader<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.4/
+ - > Adoptme<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.1/
 
 
 ## Link Of Projects
