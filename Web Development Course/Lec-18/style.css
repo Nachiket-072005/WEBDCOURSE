@@ -1,0 +1,11 @@
+/* .container .child {
+    background-color: beige;
+    border: 2px solid black;
+    height: 50px;
+} */
+
+div {
+    background-color: aliceblue;
+    border: 2px solid black;
+    height: 50%;
+}
