@@ -15,7 +15,6 @@
  - > Day - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-7/
  - > Lec - 7<br>https://nachiket-2005.github.io/WEBDCOURSE/Lec-17/
  - > Day - 10<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.3/
-      - > Microsoft Animation<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.6/
  - > Loader<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.4/
  - > Adoptme<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.1/
  - > Day - 11<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Bootstrap%20Practice/Day-11/
@@ -36,4 +35,5 @@
 - >  More Project<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-11/Lec-11.1
 - >  Favicon, Meta & Title<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-12
 - >  Traffic Signal Light<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-7/Lec-7.1/
+- > Microsoft Symbol Animation<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.6/ 
 - >  Responsive Pricing Page(Using Bootstrap)<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Bootstrap%20Practice/Day-11/Lec-11.3/
