@@ -22,6 +22,7 @@
 
 ## Link Of Projects
 
+- >  Spotify Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Spotify_Web_Clone/
 - >  Photography Website<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Mini_Projects/
 - >  Facebook Sign Up Form Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Practice%20Questions/
 - >  Amazon Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Amazon_Web_Clone
