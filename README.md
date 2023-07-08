@@ -22,6 +22,8 @@
 
 ## Link Of Projects
 
+- >  Microsoft Symbol Animation<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.6/ 
+- >  Responsive Pricing Page(Using Bootstrap)<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Bootstrap%20Practice/Day-11/Lec-11.3/
 - >  Spotify Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Spotify_Web_Clone/
 - >  Photography Website<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Mini_Projects/
 - >  Facebook Sign Up Form Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Practice%20Questions/
@@ -36,5 +38,3 @@
 - >  More Project<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-11/Lec-11.1
 - >  Favicon, Meta & Title<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-12
 - >  Traffic Signal Light<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-7/Lec-7.1/
-- > Microsoft Symbol Animation<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.6/ 
-- >  Responsive Pricing Page(Using Bootstrap)<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Bootstrap%20Practice/Day-11/Lec-11.3/
