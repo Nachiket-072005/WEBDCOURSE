@@ -1,5 +1,7 @@
 ﻿# WEBDCOURSE
 
+Currently, I am learning Full Stack Web Development and make different types of project using all these technologies so stay tuned & be happy.
+
  ## Practice Question
 
  - > Day - 1<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-1/
