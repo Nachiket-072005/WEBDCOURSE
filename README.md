@@ -21,7 +21,7 @@ Currently, I am learning Full Stack Web Development and make different types of 
  - > Adoptme<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.1/
  - > Day - 11<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Bootstrap%20Practice/Day-11/
      - > Form Demo(Using Bootstrap)<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Bootstrap%20Practice/Day-11/Day-11.2/
-
+ - > Animation Practice<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-23/
 ## Link Of Projects
 
 - >  Microsoft Symbol Animation<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.6/ 
