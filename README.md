@@ -1,6 +1,6 @@
 ﻿# WEBDCOURSE
 
-Currently, I am learning Full Stack Web Development and make different types of project using all these technologies so stay tuned & be happy.
+Currently, I am learning Full Stack Web Development and make different types of project using all these technologies which I have learnt so stay tuned & be happy.
 
  ## Practice Question
 
