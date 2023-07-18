@@ -11,6 +11,7 @@ Currently, I am learning Full Stack Web Development and make different types of 
 
 ## Link Of Projects
 
+- >  To Do App -> This app made by using only **JavaScript**. So this app only work on console page in your laptop browser.<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/To_do_App/index.html 
 - >  Spotify Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Spotify_Web_Clone/
 - >  Amazon Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Amazon_Web_Clone
 - >  Photography Website<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Mini_Projects/
