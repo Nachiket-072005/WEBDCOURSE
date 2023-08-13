@@ -243,3 +243,7 @@ const calculator = {
         return a*b;
     }
 }
+
+console.log(calculator.add(1,2));
+console.log(calculator.sub(1,2));
+console.log(calculator.multi(1,2));
