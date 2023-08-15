@@ -1,18 +1,18 @@
 let form = document.querySelector("form");
 
-// form.addEventListener("submit", function(event) {
-//     event.preventDefault();
-//     console.log("Form Submitted.");
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    console.log("Form Submitted.");
 
-//     let user = document.querySelector("#user");
-//     let pass = document.querySelector("#pass");
-//     // console.dir(user);
-//     console.log(user.value);
-//     // console.dir(pass);
-//     console.log(pass.value);
+    let user = document.querySelector("#user");
+    let pass = document.querySelector("#pass");
+    // console.dir(user);
+    console.log(user.value);
+    // console.dir(pass);
+    console.log(pass.value);
 
-//     alert(`Hi ${user.value}, Your password is set to ${pass.value} `);
-// })
+    alert(`Hi ${user.value}, Your password is set to ${pass.value} `);
+})
 
 form.addEventListener("submit", function(event) {
     event.preventDefault();
