@@ -3,7 +3,7 @@
 Currently, I am learning Full Stack Web Development and make different types of project using all these technologies which I have learnt so stay tuned & be happy.
 
 ## Using figlet node_modules output window
-<img src="https://github.com/Nachiket-2005/WEBDCOURSE/blob/main/BACKEND/MyProject/figlet_Output.png"/>
+<img src="https://github.com/Nachiket-2005/WEBDCOURSE/blob/main/BACKEND/MyProject/Second_Output.png"/>
 
  ## Practice Question
  
