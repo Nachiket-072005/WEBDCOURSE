@@ -2,6 +2,9 @@
 
 Currently, I am learning Full Stack Web Development and make different types of project using all these technologies which I have learnt so stay tuned & be happy.
 
+## Using figlet node_modules output window
+<img src="https://github.com/Nachiket-2005/WEBDCOURSE/blob/main/BACKEND/MyProject/figlet_Output.png"/>
+
  ## Practice Question
  
  - > Loader<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-10/Lec-10.4/
