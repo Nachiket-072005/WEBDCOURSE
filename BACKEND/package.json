@@ -8,8 +8,10 @@
   },
   "author": "Nachiket Prajapati",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "figlet": "^1.6.0",
-    "give-me-a-joke": "^0.5.1"
+    "give-me-a-joke": "^0.5.1",
+    "random-words": "^2.0.0"
   }
 }

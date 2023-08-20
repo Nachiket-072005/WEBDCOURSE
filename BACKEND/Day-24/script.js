@@ -14,9 +14,17 @@
 //     console.log("hello, ", args[i]);
 // }
 
-const info = require("./Fruits");
+// const info = require("./Fruits");
 
-console.log(info);
+// console.log(info);
 // console.log(math.sum(2, 2));
 // console.log(math.mul(4, 2));
 // console.log(math.PI);
+
+import{sum, PI} from "./math.js";
+
+import { generate } from "random-words";
+
+console.log(generate());
+
+// console.log(sum(1, 2));
