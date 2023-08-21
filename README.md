@@ -12,7 +12,7 @@ Currently, I am learning Full Stack Web Development and make different types of 
  - > Form Demo(Using Bootstrap)<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Bootstrap%20Practice/Day-11/Day-11.2/
  - > Resume Building<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Lec-10 
  - > To create random cat facts and dog images using API<br>https://nachiket-2005.github.io/WEBDCOURSE/Web%20Development%20Course/Day-23/ 
-## Link Of Projects
+## Link of Projects
 
 - >  To Do App<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/To_do_App/index.html 
 - >  Spotify Website Clone<br>https://nachiket-2005.github.io/WEBDCOURSE/Projects/Spotify_Web_Clone/
