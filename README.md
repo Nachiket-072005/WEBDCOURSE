@@ -1,23 +1,5 @@
 ﻿# Full Stack Web Developement Course(Using MERN Stack)
-
- ## Practice Question
  
- - > Loader<br>https://hustlewithnachiket.github.io/WEBDCOURSE/WebDevelopmentCourse/Day-10/Lec-10.4
- - > Adoptme<br>https://hustlewithnachiket.github.io/WEBDCOURSE/WebDevelopmentCourse/Day-10/Lec-10.1/
- - > Form Demo(Using Bootstrap)<br>https://hustlewithnachiket.github.io/WEBDCOURSE/WebDevelopmentCourse/Bootstrap%20Practice/Day-11/Day-11.2/
- - > Resume Building<br>https://hustlewithnachiket.github.io/WEBDCOURSE/WebDevelopmentCourse/Lec-10 
- - > To create random cat facts and dog images using API<br>https://hustlewithnachiket.github.io/WEBDCOURSE/WebDevelopmentCourse/Day-23/ 
-## Link of Projects
-
-- >  To Do App<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Projects/To_do_App/index.html 
-- >  Spotify Website Clone<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Projects/Spotify_Web_Clone/
-- >  Amazon Website Clone<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Projects/Amazon_Web_Clone
-- >  Photography Website<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Projects/Mini_Projects/
-- >  Responsive Pricing Page(Using Bootstrap)<br>https://hustlewithnachiket.github.io/WEBDCOURSE/WebDevelopmentCourse/Bootstrap%20Practice/Day-11/Lec-11.3/
-- >  Facebook Sign Up Form Clone<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Practice%20Questions/
-- >  Cards - 1<br>https://hustlewithnachiket.github.io/WEBDCOURSE/WebDevelopmentCourse/Lec-27/Lec-27.1/index.html
-- >  Cards - 2<br>https://hustlewithnachiket.github.io/WEBDCOURSE/WebDevelopmentCourse/Lec-27/Lec-27.2/index.html
-
 ## Free APIs for project
 - > 1. Potter DB : <br>
     Docs :- https://potterdb.com/?ref=apislist.com <br>
