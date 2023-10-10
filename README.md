@@ -3,6 +3,7 @@
 ## Projects
 
 - > HTML(Project-1)<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Love_Babber_Web_Dev_Course/Lec-10/
+- > HTML(Project-2)<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Love_Babber_Web_Dev_Course/Lec-11/Lec-11.1/ 
  
 ## Free APIs for project
 - > 1. Potter DB : <br>
