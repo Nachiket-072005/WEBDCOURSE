@@ -1,0 +1,22 @@
+.container {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    border: 3px solid rgb(39, 178, 233);
+    flex-wrap: wrap;
+    margin: 10px auto;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    border-radius: 9px;
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 6px;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    background-color: gray;
+}
