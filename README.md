@@ -2,10 +2,10 @@
 
 ## Projects
 
-- > HTML(Project-1)<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Love_Babber_Web_Dev_Course/Lec-10/
-- > HTML(Project-2)<br>https://hustlewithnachiket.github.io/WEBDCOURSE/Love_Babber_Web_Dev_Course/Lec-11/Lec-11.1/
-- > HTML & CSS(Project-3)<br>https://hustlewithnachiket.github.io/WEBDCOURSE//Love_Babber_Web_Dev_Course/Lec-26/
-- > HTML & CSS(Project-4)<br>https://hustlewithnachiket.github.io/WEBDCOURSE/CSS/Spotify_Web_Clone/
+- > HTML(Project-1)<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE/Love_Babber_Web_Dev_Course/Lec-10/">Live Demo</a>
+- > HTML(Project-2)<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE/Love_Babber_Web_Dev_Course/Lec-11/Lec-11.1/">Live Demo</a>
+- > HTML & CSS(Project-3)<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE//Love_Babber_Web_Dev_Course/Lec-26/">Live Demo</a>
+- > HTML & CSS(Project-4)<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE/CSS/Spotify_Web_Clone/">Live Demo</a>
  
 ## Free APIs for project
 - > 1. Potter DB : <br>
