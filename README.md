@@ -6,6 +6,11 @@
 - > HTML(Project-2)<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE/Love_Babber_Web_Dev_Course/Lec-11/Lec-11.1/">Live Demo</a>
 - > HTML & CSS(Project-3)<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE//Love_Babber_Web_Dev_Course/Lec-26/">Live Demo</a>
 - > HTML & CSS(Project-4)<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE/CSS/Spotify_Web_Clone/">Live Demo</a>
+
+## API Based Project
+
+- > Cat Facts<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE/Fronted%20Part%20of%20Web%20Developement/JavaScript/DOM_Manupulation/Lec-26/Lec-26.1/index.html">Live Demo</a>
+- > Dog Pictures<br><a href = "https://hustlewithnachiket.github.io/WEBDCOURSE/Fronted%20Part%20of%20Web%20Developement/JavaScript/DOM_Manupulation/Lec-26/Lec-26.2/index.html">Live Demo</a>
  
 ## Free APIs for project
 - > 1. Potter DB : <br>
