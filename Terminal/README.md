@@ -31,13 +31,13 @@
 
 Flags are character that we pass with commands to modify their behaviour.
 
-   *Manual Command*
+   **Manual Command**
 
    1. `man ls` -> give info about `ls` command.
 
    2. `man mkdir` -> give info about `mkdir` command.
 
-    *With Flags*
+    # With Flags
 
     - ls -l
     - ls -a
