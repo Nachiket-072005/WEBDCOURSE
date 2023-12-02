@@ -36,27 +36,27 @@ this only works if changes are in your staging area
 ans: if you want to move the whole file back to the untracked state, then we do git rm, otherwise if we 
 just want the changes to be moved in working area or staging area then we git restore.
 
-13. `git diff commit1 commit2` -> gives the difference of all file changes between two commits
+13. `git diff commit1 commit2` -> gives the difference of all file changes between two commits.
 
 14 `git commit -m "<your commit message>"` -> If we want to avoid opening a text editor like vim/nano to 
-add commit message we can use this following command
+add commit message we can use this following command.
 
-15. `git remote` -> list down all the remote connection names
+15. `git remote` -> list down all the remote connection names.
 
 16. Remote connection -> It helps you to link two git repositories for uploading and downloading changes
-from each otherwise
+from each otherwise.
 
 17. `git remote add <name of remote> <link of the remote>` : this command helps us to add a new link to the
-remote repo and give a name to it
+remote repo and give a name to it.
 
-18.  `git remote rm <name of remote>` : this command deletes a remote connection
+18.  `git remote rm <name of remote>` : this command deletes a remote connection.
 
-19.  `git remote rename <olanme> <newname>` : this command remanes the remote connection
+19.  `git remote rename <oldname> <newname>` : this command remanes the remote connection.
 
-Note: The name of the remote connection is always used to establish communication between the repos
+**Note: The name of the remote connection is always used to establish communication between the repos.**
 
 20. `git add <file1> <file2> <file3>`: this command will add multiple file changes together in the
-staging area
+staging area.
 
 21. `git add .`: this command will add all files from working repo to staging area.
 
@@ -76,6 +76,12 @@ staging area
 
 25. `git push origin main` : Upload local repository content to remote repository.
 
-23. Merge conflicts are a very common scnario
+26. `git remote -v` : To verify remote.
+
+27. `git branch` : To checkout branch.
+
+28. `git branch -M <-name of branch->` : To rename branch.
+
+29. Merge conflicts are a very common scnario
 
 merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate
