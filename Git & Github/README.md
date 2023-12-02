@@ -94,7 +94,7 @@ staging area.
 
 34. `git merge <-branch name->` : To merge 2 branches.
 
-29. Merge conflicts are a very common scenario merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate.
+35. Merge conflicts are a very common scenario merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate.
 
 ### Fixing Mistakes
 
