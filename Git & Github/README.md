@@ -21,7 +21,7 @@ area is the place where git knows what changes will be done from the last versio
 
 7.  `commit` -> Commits is a particular version of the project. It captures a snapshot of the project's staged chages and creates a version out of it.
 
-8.  `git commit` -> registers staging changes to a commit.
+8.  `git commit -m "some message"` -> registers staging changes to a commit.
 
 9.  `git log` -> list downs all the commits of the repository. If you want to exit out of git log prompt press `q`.
 
@@ -73,6 +73,8 @@ staging area
 23. `git clone <-some link->` : Cloning a repository on our local machine.
 
 24. `git status` : display the state of the code.
+
+25. `git push origin main` : Upload local repository content to remote repository.
 
 23. Merge conflicts are a very common scnario
 
