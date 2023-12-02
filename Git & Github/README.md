@@ -82,6 +82,37 @@ staging area.
 
 28. `git branch -M <-name of branch->` : To rename branch.
 
-29. Merge conflicts are a very common scnario
+29. `git checkout <-branch name->` : To Navigate the other branch.
 
-merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate
+30. `git checkout -b <-branch name->` : To create new branch.
+
+31.  `git branch -d <-branch name->` : To delete branch.
+
+32. `git push --set-upstream origin feature` : Connect to origin branch.
+
+33. `git diff <-branch name->` : To compare commits,branches,files & more.
+
+34. `git merge <-branch name->` : To merge 2 branches.
+
+29. Merge conflicts are a very common scenario merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate.
+
+### Fixing Mistakes
+
+Case 1 : Staged Changes
+
+1. `git reset <-file name->`: Only in one file.
+2.  `git reset` : Multiple files.
+
+Case 2 : Commited Changes(for one commit)
+
+1. `git reset HEAD~1`
+
+Case 3 : Commited Changes(for many commits)
+
+1. `git reset <-commit hash->`: To show content after that commits.
+2. `git reset --hard <-commit hash->`: Nothing to show content after that commits.
+
+### What is forking?
+
+- > A fork is a new repository that shares code and visibility settings with the oringinal **upstream** repository.
+- > Fork is a rough copy of repository.
