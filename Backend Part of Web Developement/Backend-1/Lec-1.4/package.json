@@ -1,0 +1,12 @@
+{
+  "name": "lec-1.4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nachiket Prajapati",
+  "license": "ISC",
+  "type": "module"
+}
