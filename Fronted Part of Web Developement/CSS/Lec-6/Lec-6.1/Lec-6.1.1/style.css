@@ -36,4 +36,3 @@ h1::first-letter {
 input[type="checkbox"]:checked + label{
     color: darkgreen;
 }
-
