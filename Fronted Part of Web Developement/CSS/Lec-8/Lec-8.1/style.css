@@ -5,7 +5,7 @@ div {
     margin: 0 auto; /*It means object is place in between the web page */
     transition: margin-top 5s ease-in-out 0.2s;
     margin-top: 15px;
-    opacity: 0.5; /*It works on whole elements */
+    /* opacity: 0.5; It works on whole elements */
 }
 
 div:hover {
