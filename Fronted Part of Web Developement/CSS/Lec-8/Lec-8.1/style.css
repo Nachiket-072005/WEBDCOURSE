@@ -1,14 +1,14 @@
 div {
     height: 100px;
     width: 100px;
-    background-color: blue;
-    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.5); /*This alpha channel works on only color property. */
+    margin: 0 auto; /*It means object is place in between the web page */
     transition: margin-top 5s ease-in-out 0.2s;
     margin-top: 15px;
+    opacity: 0.5; /*It works on whole elements */
 }
 
 div:hover {
     margin-top: 400px;
     background-color: brown;
 }
-
