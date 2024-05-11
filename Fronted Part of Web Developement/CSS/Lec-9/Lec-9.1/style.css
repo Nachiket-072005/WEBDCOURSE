@@ -20,6 +20,13 @@
 .sixth {
     /* Cross axis */
     align-self: flex-end;
+    /* Set accordingly flex-direction Main Axis */
+    /* flex-basis: 100px; */
+    flex-grow: 1;
+}
+
+.four {
+    flex-grow: 2;
 }
 
 h1 {
@@ -28,7 +35,7 @@ h1 {
 
 .container div {
     height: 100px;
-    width: 300px;
+    width: 100px;
     color: white;
     text-align: center;
     font-size: 1.5em;
