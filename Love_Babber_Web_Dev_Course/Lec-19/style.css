@@ -1,16 +1,15 @@
 .img1 {
-    height: 200px;
-    float: left;
+  height: 200px;
+  float: left;
 }
 
 .img2 {
-    height: 200px;
-    float: right;
+  height: 200px;
+  float: right;
 }
 
 .img3 {
-    height: 200px;
-    float: left;
-    clear: left;
+  height: 200px;
+  float: left;
+  clear: left;
 }
-
