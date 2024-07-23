@@ -1,6 +1,10 @@
+// Lecture Codes
+
 console.log("Hello Jii...!!");
 console.log("How is your day ?");
 console.log("This is Nachiket Prajapati here...!!");
+
+// Template Literals
 
 let pencilPrice = 10;
 let erasorPrice = 5;
@@ -27,20 +31,21 @@ console.log(--a); //10
 
 //If Statement
 //Now, Create a prompt :-
-
+// Practice Question - Traffic Light System
 let color = "red";
 
 if (color == "red") {
-  console.log("You can go.");
+  console.log("Stop! Light color is red.");
 } else if (color == "yellow") {
-  console.log("You can slow your speed.");
+  console.log("You can slow down your speed. Light color is yellow.");
 } else if (color == "green") {
-  console.log("You can stop.");
+  console.log("You can go. Light color is green.");
 } else {
   console.log("Traffic light is broken.");
 }
 
-console.log("You can get these type of size : 1.XL, 2.L, 3.M, 4.S");
+// else-if Statement - Practice Question
+console.log("You can select any of these type of size : 1.XL, 2.L, 3.M, 4.S");
 let size = "S";
 
 if (size == "XL") {
@@ -68,6 +73,8 @@ if (marks >= 33) {
   console.log("Sorry, Better luck next time!!");
 }
 
+// Practice Questions
+
 let str = "Aim";
 
 if ((str[0] == "a" || str[0] == "A") && str.length > 3) {
@@ -78,7 +85,7 @@ if ((str[0] == "a" || str[0] == "A") && str.length > 3) {
 
 let num = 12;
 
-if (num % 3 == 0 && (num + 1 == 15 || num - 1 == 11)) {
+if ( (num % 3 == 0) && ( (num + 1 == 15) || (num - 1 == 11) )) {
   console.log("Safe Zone.");
 } else {
   console.log("Unsafe zone.");
