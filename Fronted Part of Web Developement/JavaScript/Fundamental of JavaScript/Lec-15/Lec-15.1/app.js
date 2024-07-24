@@ -21,12 +21,19 @@ console.log(msg.indexOf("j"));
 
 //4.Method of chaining 
 
+//This is first concept & Why we use Method Chaining?
+// let newMsg = str.trim();
+// console.log(newMsg);
+// newMsg = newMsg.toUpperCase();
+// console.log(newMsg)
+
 console.log(str.trim().toUpperCase());
 
 //5.slice Method
 //slice(start, end) --> Here, End is Non-Inclusive.
 console.log(msg.slice(1, 5));
 console.log(msg.slice(5));
+//slice(-num) = slice(length - num)
 console.log(msg.slice(-2)); //11-2 ==> 9
 console.log(msg.slice(0, 5)); 
 
@@ -39,7 +46,8 @@ console.log(msg.repeat(3));
 let _msg = "Mango";
 console.log(_msg.repeat(4));
 
-//Practice Questions 
+//Practice Questions -> Part-1
+
 let $msg = "  help!";
 
 console.log($msg.trim().toUpperCase());
@@ -53,10 +61,16 @@ console.log(name.replace("Apna", "Our"));
 console.log(name.slice(4).replace("l", "t"));
 
 //Array Data Structure
-let arr = ["nachiket", "rudra", "aman", "bob"];
+let arr = ["nachiket", "rudra", "aman", "bob"]; // Strings array
+let marks = [90, 89, 65, 45]; // Numbers array
+let info = ["Nachiket", 85, 22.98]; // Mixed array
+
+let newArr = []; // Empty array
 
 console.log(arr[2]);
 console.log(arr[1][1]);
+
+console.log(arr.length);
 
 //Arrays are mutable that means it will not create new array.
 //Array methods --> 1.push = add at the end, 2.pop = delete at the end, 3.unshift = add at the start, 4.shift = delete at the start
@@ -78,11 +92,11 @@ console.log(arr);
 let months = ["january", "july", "march", "august"];
 
 months.shift();
-console.log(months);
+// console.log(months);
 months.shift();
-console.log(months);
+// console.log(months);
 months.unshift("june");
-console.log(months);
+// console.log(months);
 months.unshift("july");
 console.log(months);
 
