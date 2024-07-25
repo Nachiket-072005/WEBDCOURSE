@@ -183,7 +183,7 @@ console.log(arr_.pop());
 
 let array = [ [2, 4], [3, 6], [4, 8] ];
 
-console.log(array[0][0]);
+console.log(array[0][0]); // arrName[row][col]
 console.log(array[1]);
 console.log(array[2][0]);
 

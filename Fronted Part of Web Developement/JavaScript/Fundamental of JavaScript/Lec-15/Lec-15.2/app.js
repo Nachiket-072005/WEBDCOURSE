@@ -1,10 +1,18 @@
+// Question - 1
+
 let arr = [7, 9, 0, -2];
 let n = 3;
 
-arr.splice(n);
+console.log(arr.splice(n));
 console.log(arr);
-//2nd Ans.
-console.log(arr.splice(arr.length - n));
+
+// Question - 2
+
+let arrCopy = [7, 9, 0, -2];
+console.log(arrCopy.length);
+console.log(arrCopy.splice(arrCopy.length - n));
+
+// Question - 3
 
 let str = "";
 
@@ -15,7 +23,9 @@ else {
     console.log("String is not empty");
 }
 
-let char = 'S';
+// Question - 4
+
+let char = 'm';
 
 if(char.toLowerCase() == char){
     console.log("Given character is in lower case.");
@@ -24,8 +34,12 @@ else {
     console.log("Given character is in upper case.");
 }
 
+// Question - 5
+
 let string = "    Hello Jii...  ";
 console.log(string.trim());
+
+// Question - 6
 
 let array = ["nachiket", "rudra", "bob", "tony"];
 let q = "nachiket";
