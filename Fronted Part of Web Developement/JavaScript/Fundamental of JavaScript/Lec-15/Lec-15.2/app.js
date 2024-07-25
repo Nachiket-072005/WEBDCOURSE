@@ -25,13 +25,13 @@ else {
 
 // Question - 4
 
-let char = 'm';
+let strCpy = "CoDEmAn";
+let idx = 3;
 
-if(char.toLowerCase() == char){
-    console.log("Given character is in lower case.");
-}
-else {
-    console.log("Given character is in upper case.");
+if(strCpy[idx] == strCpy[idx].toLowerCase()){
+    console.log("Element exists at idx is in lower case.");
+} else {
+    console.log("Element exists at idx is in upper case.");
 }
 
 // Question - 5
@@ -42,7 +42,7 @@ console.log(string.trim());
 // Question - 6
 
 let array = ["nachiket", "rudra", "bob", "tony"];
-let q = "nachiket";
+let q = "none";
 if(array.includes(q) == true){
     console.log("array element is exist in an array.");
 }
