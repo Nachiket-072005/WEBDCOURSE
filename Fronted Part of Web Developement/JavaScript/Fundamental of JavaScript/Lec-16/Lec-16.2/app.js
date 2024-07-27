@@ -10,5 +10,5 @@ while(guess != favMovie) {
 }
 
 if(guess == favMovie) {
-    console.log("Congratulations!! Your guess movie is right.");
+    console.log("Congratulations!! Your guessed movie is right.");
 }

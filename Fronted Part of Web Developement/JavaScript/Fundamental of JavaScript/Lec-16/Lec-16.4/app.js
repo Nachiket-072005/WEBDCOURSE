@@ -3,10 +3,10 @@
 let arr = [1, 2, 3, 4, 5, 6, 2, 3];
 let num = 2;
 
-for(let i=0; i<arr.length; i++) {
-    if(arr[i] == num) {
-        arr.splice(i, 1);
-    }
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] == num) {
+    arr.splice(i, 1);
+  }
 }
 console.log(arr);
 
@@ -17,21 +17,22 @@ let count = 0;
 
 let copy = nums;
 
-while(copy > 0) {
-    count++;
-    copy = Math.floor(copy/10);
+while (copy > 0) {
+  count++;
+  copy = Math.floor(copy / 10);
 }
 console.log(count);
 
 //Practice Que.3
 
 let copyNums = nums;
-let sum = 0, digit;
+let sum = 0,
+  digit;
 
-while(copyNums > 0) {
-    digit = copyNums%10;
-    sum += digit;
-    copyNums = Math.floor(copyNums/10);
+while (copyNums > 0) {
+  digit = copyNums % 10;
+  sum += digit;
+  copyNums = Math.floor(copyNums / 10);
 }
 console.log(sum);
 
@@ -40,8 +41,8 @@ console.log(sum);
 let _num = 5;
 let fact = 1;
 
-for(let i=1; i<=_num; i++) {
-    fact *= i;
+for (let i = 1; i <= _num; i++) {
+  fact *= i;
 }
 console.log(fact);
 
@@ -50,9 +51,9 @@ console.log(fact);
 let array = [2, 5, 10, 15, 3, 45];
 let largest = 0;
 
-for(let i=0; i<array.length; i++) {
-    if(largest < array[i]) {
-        largest = array[i];
-    }
+for (let i = 0; i < array.length; i++) {
+  if (largest < array[i]) {
+    largest = array[i];
+  }
 }
 console.log(largest);
