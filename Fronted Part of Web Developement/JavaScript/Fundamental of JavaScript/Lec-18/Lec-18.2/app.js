@@ -1,4 +1,5 @@
-//1
+// Question - 1:
+
 let arr = [8, 9, 10, 1, 2, 3, 4, 5, 6, 7];
 let num = 5;
 
@@ -13,7 +14,7 @@ function getElements(arr, num) {
 
 getElements(arr, num);
 
-//2
+// Question - 2:
 
 let str = "abcdabcdefgggh";
 
@@ -23,6 +24,7 @@ function getUnique(str) {
 
   for (let i = 0; i < str.length; i++) {
     let currChar = str[i];
+    // console.log(str[i]);
     if (ans.indexOf(currChar) == -1) {
       ans += currChar;
     }
@@ -32,7 +34,8 @@ function getUnique(str) {
 
 console.log(getUnique(str));
 
-//3
+//Question - 3:
+
 let country = ["Australia", "Germany", "United States of America"];
 
 function longestName(country) {
@@ -51,7 +54,7 @@ function longestName(country) {
 
 console.log(longestName(country));
 
-//4
+// Question - 4:
 
 let _str = "apnacollege";
 
@@ -73,14 +76,15 @@ function countVowels(_str) {
 }
 
 console.log(countVowels(_str));
-//5 
+
+// Question - 5:
 
 let start = 100;
 let end = 200;
 
 function getRandom(start, end) {
-    diff = end - start;
-    return Math.floor(Math.random() * diff) + 1;
+  diff = end - start;
+  return Math.floor(Math.random() * diff) + 1;
 }
 
 console.log(getRandom(start, end));
