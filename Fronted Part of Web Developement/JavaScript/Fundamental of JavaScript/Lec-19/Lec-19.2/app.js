@@ -1,4 +1,4 @@
-//1
+// Question - 1:
 
 let array = [1, 2, 3, 4, 5];
 
@@ -14,7 +14,7 @@ let arrayAverage = (array) => {
 
 console.log(arrayAverage(array));
 
-//2
+// Question - 2:
 
 let n = 5;
 
@@ -28,7 +28,7 @@ let isEven = (n) => {
 
 console.log(isEven(n));
 
-//3
+// Question - 3:
 const object = {
   massage: "Hello, World",
 
@@ -39,7 +39,7 @@ const object = {
 
 setTimeout(object.logMessage, 1000);
 
-//4
+// Question - 4:
 
 let length = 4;
 
