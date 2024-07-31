@@ -1,4 +1,5 @@
 //Array Methods
+
 //forEach
 
 let arr = [1, 2, 3, 4, 5];
@@ -74,6 +75,7 @@ let _odd = num.every((el) => {
 
 console.log(_odd);
 //some function is as OR Gate
+
 let _even = num.some((el) => {
   return el % 2 == 0;
 });
@@ -134,10 +136,10 @@ function getMin(_array) {
 
 console.log(getMin(_array));
 
-//Default Parameter 
+//Default Parameter
 
-function getSum(a, b=2) {
-    return a+b;
+function getSum(a, b = 2) {
+  return a + b;
 }
 
 console.log(getSum(1));
@@ -165,49 +167,48 @@ console.log(..."hello");
 //Spread Object literals
 
 let data = {
-    email: "ironman@gmail.com",
-    password: "abcd"
+  email: "ironman@gmail.com",
+  password: "abcd",
 };
 
-let dataCopy = {...data, id : 123};
+let dataCopy = { ...data, id: 123 };
 
 console.log(dataCopy);
 
-let newArr = {...$arr};
+let newArr = { ...$arr };
 
 console.log(newArr);
 
 //rest concept
 
 function sum(...args) {
-    return args.reduce( (sum, el) => sum + el);
+  return args.reduce((sum, el) => sum + el);
 }
 
 console.log(sum(1, 2, 3, 4, 5));
 
 function min(msg, ...args) {
-    console.log(msg);
-    return args.reduce( (min, el) => {
-        if(min > el) {
-            return el;
-        }
-        else {
-            return min;
-        }
-    });
+  console.log(msg);
+  return args.reduce((min, el) => {
+    if (min > el) {
+      return el;
+    } else {
+      return min;
+    }
+  });
 }
 
 console.log(min("min number is : ", -1, 2, -4, 0));
 
 function _max(msg, ...args) {
-    console.log(msg);
-    return args.reduce( (max, el) => {
-        if(max > el) {
-            return max;
-        } else {
-            return el;
-        }
-    });
+  console.log(msg);
+  return args.reduce((max, el) => {
+    if (max > el) {
+      return max;
+    } else {
+      return el;
+    }
+  });
 }
 
 console.log(_max("max number is : ", 1, 34, 5, 76));
@@ -221,6 +222,8 @@ let names = ["tony", "bruce", "peter", "steve", "stark"];
 
 // console.log(winner, runnerup);
 
+// Destructiong Arrays + Rest
+
 let [winner, runnerup, ...others] = names;
 
 console.log(winner, runnerup, others); //using rest concept to take an multiple arguments and returned into one arguments as an array
@@ -228,18 +231,20 @@ console.log(winner, runnerup, others); //using rest concept to take an multiple 
 //Destructuring Objects
 
 const student = {
-    name: "karan",
-    age: 14,
-    class: 9,
-    subject: ["hindi", "english", "math", "science"],
-    username: "karan@123",
-    password: "abcd"
-    // city: "Pune" 
+  name: "karan",
+  age: 14,
+  class: 9,
+  subject: ["hindi", "english", "math", "science"],
+  username: "karan@123",
+  password: "abcd",
+  // city: "Pune"
 };
 
 // let user = student.username;
 // let pass = student.password;
 
-let {username : user, password : pass, city: place = "Mumbai"} = student;
+// key should be same as object key and we can also give default value
+
+let { username: user, password: pass, city: place = "Mumbai" } = student;
 
 console.log(user, pass, place);
