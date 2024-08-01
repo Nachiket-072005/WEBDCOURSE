@@ -1,7 +1,7 @@
 let smallImages = document.getElementsByClassName("oldImg");
 
-for(let i=0; i<smallImages.length; i++) {
-    console.dir(smallImages[i].src);
+for (let i = 0; i < smallImages.length; i++) {
+  console.dir(smallImages[i].src);
 }
 
 console.dir(document.querySelector("p"));
@@ -9,16 +9,15 @@ console.dir(document.querySelectorAll("div a"));
 console.dir(document.querySelector("h1"));
 console.dir(document.querySelectorAll("p"));
 
-
 let para = document.querySelector("p");
+
 //innerText => This will show screen text.
-
 console.dir(para.innerText);
+
 //innerHTML => This will show with all HTML tags.
-
 console.dir(para.innerHTML);
-//textContent => This will show that text written in html document.
 
+//textContent => This will show that text written in html document.
 console.dir(para.textContent);
 
 //Manipulating Attribute
@@ -41,8 +40,8 @@ heading.style.backgroundColor = "yellow";
 
 let links = document.querySelectorAll(".box a");
 
-for(let link of links) {
-    link.style.color = "purple";
+for (let link of links) {
+  link.style.color = "purple";
 }
 
 //classList Property
@@ -77,7 +76,7 @@ console.log(h4.nextElementSibling);
 
 let body = document.querySelector("body");
 
-let newPara = document.createElement('p');
+let newPara = document.createElement("p");
 
 newPara.innerHTML = "This is new <b>paragraph.</b>";
 
