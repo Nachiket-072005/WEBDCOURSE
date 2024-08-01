@@ -1,21 +1,21 @@
 .container {
-    width: 600px;
-    height: 600px;
-    border: black solid 5px;
+  width: 600px;
+  height: 600px;
+  border: black solid 5px;
 }
 
 .red {
-    color: red;
+  color: red;
 }
 
 .blue {
-    color: blue;
+  color: blue;
 }
 
 .prop {
-    background-color: pink;
-    border: black 5px solid;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
+  background-color: pink;
+  border: black 5px solid;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
 }

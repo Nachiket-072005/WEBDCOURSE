@@ -1,4 +1,4 @@
-let p = document.createElement('p');
+let p = document.createElement("p");
 
 p.innerText = "Hey, I'm red!";
 
