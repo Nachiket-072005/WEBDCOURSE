@@ -1,15 +1,14 @@
 * {
-    text-align: center;
-    background-color: beige;
+  text-align: center;
+  background-color: beige;
 }
 
 div {
-    height: 100px;
-    width: 500px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  height: 100px;
+  width: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
-
