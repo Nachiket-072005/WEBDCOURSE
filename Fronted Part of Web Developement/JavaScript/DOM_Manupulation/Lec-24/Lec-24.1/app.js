@@ -1,16 +1,16 @@
 //Call Stack in JS
 
 function one() {
-    return 1;
+  return 1;
 }
 
 function two() {
-    return one() + one();
+  return one() + one();
 }
 
 function three() {
-    let ans = two() + one();
-    console.log(ans);
+  let ans = two() + one();
+  console.log(ans);
 }
 
 // three();
@@ -29,29 +29,30 @@ function three() {
 let h1 = document.querySelector("h1");
 
 function changeColor(color, delay) {
-    return new Promise( (resolve, reject) => {
-        setTimeout( () => {
-            h1.style.color = color;
-            resolve("color changed!");
-        }, delay);
-    });
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      h1.style.color = color;
+      resolve("color changed!");
+    }, delay);
+  });
 }
 
-changeColor("red", 1000).then( () => {
+changeColor("red", 1000)
+  .then(() => {
     console.log("red color was completed.");
     return changeColor("orange", 1000);
-})
-.then( () => {
+  })
+  .then(() => {
     console.log("orange color was completed.");
     return changeColor("green", 1000);
-})
-.then( () => {
+  })
+  .then(() => {
     console.log("green color was completed.");
     return changeColor("blue", 1000);
-})
-.then( () => {
+  })
+  .then(() => {
     console.log("blue color was completed.");
-})
+  });
 
 // changeColor("red", 1000, () => {
 //     changeColor("orange", 1000, () => {
@@ -106,15 +107,15 @@ saveToDb(
 //Refectoring with promises
 
 function saveToDb(data) {
-  return new Promise( (resolve, reject) => {
-      let internateSpeed = Math.floor(Math.random() * 10) + 1;
-      
-      if(internateSpeed > 4) {
-        resolve("Success : data was saved.");
-      } else {
-        reject("Failure : data wasn't saved.");
-      }
-  });  
+  return new Promise((resolve, reject) => {
+    let internateSpeed = Math.floor(Math.random() * 10) + 1;
+
+    if (internateSpeed > 4) {
+      resolve("Success : data was saved.");
+    } else {
+      reject("Failure : data wasn't saved.");
+    }
+  });
 }
 
 // console.log(saveToDb("apna college"));
@@ -135,21 +136,21 @@ function saveToDb(data) {
 //compact version of above
 
 saveToDb("Hello World")
-.then( (result) => {
+  .then((result) => {
     console.log("result :", result);
     console.log("Promise1 was resolve.");
     return saveToDb("Apna College");
-})
-.then( (result) => {
+  })
+  .then((result) => {
     console.log("result :", result);
     console.log("Promise2 was resolve.");
     return saveToDb("Nachiket Prajapati");
-})
-.then( (result) => {
+  })
+  .then((result) => {
     console.log("result :", result);
     console.log("Promise3 was resolve.");
-})
-.catch( (error) => {
+  })
+  .catch((error) => {
     console.log("error : ", error);
-    console.log("Promise was rejected.");   
-});
+    console.log("Promise was rejected.");
+  });
