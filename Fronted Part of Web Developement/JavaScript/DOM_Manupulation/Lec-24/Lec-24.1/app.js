@@ -133,6 +133,19 @@ function saveToDb(data) {
 //     console.log(request);
 // });
 
+// More than one promise chaining => then() & catch() method chaining
+
+// saveToDb("Hello World")
+//   .then(() => {
+//     console.log("Promise was resolve.");
+//     saveToDb("Apna College").then(() => {
+//       console.log("Promise was resolve.");
+//     });
+//   })
+//   .catch(() => {
+//     console.log("Promise was rejected.");
+//   });
+
 //compact version of above
 
 saveToDb("Hello World")
