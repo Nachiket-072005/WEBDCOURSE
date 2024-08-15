@@ -16,7 +16,6 @@
 
 //Method - 2
 
-
 // const PI = 3.14;
 // const g = 9.8;
 // const sum = (a, b) => a + b;
