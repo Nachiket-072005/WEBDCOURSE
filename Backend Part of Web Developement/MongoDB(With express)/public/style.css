@@ -1,0 +1,52 @@
+body {
+  margin-left: 20px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.chat {
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 16px;
+}
+
+.msg {
+  padding: 10px;
+  background-color: dodgerblue;
+  border-radius: 12px;
+  color: white;
+  margin: 10px;
+}
+
+form button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h1 {
+  color: dodgerblue;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid dodgerblue;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.msg form button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
