@@ -6,6 +6,7 @@ const path = require("path");
 const Listing = require("./models/listing");
 const { url } = require("inspector");
 const methodOverride = require("method-override");
+const ejsMate = require("ejs-mate");
 
 app.use(methodOverride("_method"));
 
@@ -23,6 +24,8 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, "public")));
+app.engine("ejs", ejsMate);
 
 app.get("/", (req, res) => {
   res.send("Hello, I am root.");
