@@ -7,8 +7,13 @@ main()
   })
   .catch((err) => console.log(err));
 
+// Main Code
+// async function main() {
+//   await mongoose.connect("mongodb://localhost:27017/whatsapp");
+// }
+
 async function main() {
-  await mongoose.connect("mongodb://localhost:27017/whatsapp");
+  await mongoose.connect("mongodb://localhost:27017/fakewhatsapp");
 }
 
 let chats = [
