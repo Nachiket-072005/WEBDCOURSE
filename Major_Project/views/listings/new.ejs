@@ -4,7 +4,7 @@
   <div class="col-8 offset-2">
     <div class="mb-3"></div>
     <h3>Create a New Listing</h3>
-    <form method="post" action="/listings">
+    <form method="post" action="/listings" novalidate class="needs-validation">
       <div class="mb-3">
         <label for="title" class="form-label">Title:</label>
         <input
@@ -15,6 +15,8 @@
           class="form-control"
           required
         />
+        <div class="valid-feedback">Title looks good!</div>
+        <div class="invalid-feedback">Please enter the valid title!</div>
       </div>
       <div class="mb-3">
         <label for="description" class="form-label">Description:</label>
@@ -25,7 +27,9 @@
           rows="10"
           placeholder="Write description here...."
           class="form-control"
+          required
         ></textarea>
+        <div class="invalid-feedback">Please enter the description!</div>
       </div>
       <div class="mb-3">
         <label for="image" class="form-label">Image:</label>
@@ -41,13 +45,13 @@
         <div class="mb-3 col-md-4">
           <label for="price" class="form-label">Price:</label>
           <input
-            type="number"
             id="price"
             name="price"
             placeholder="1200"
             class="form-control"
             required
           />
+          <div class="invalid-feedback">Please enter a valid price!</div>
         </div>
         <div class="mb-3 col-md-8">
           <label for="country" class="form-label">Country:</label>
@@ -59,6 +63,7 @@
             class="form-control"
             required
           />
+          <div class="invalid-feedback">Please enter the country name!</div>
         </div>
       </div>
       <div class="mb-3">
@@ -71,6 +76,7 @@
           class="form-control"
           required
         />
+        <div class="invalid-feedback">Please enter the location name!</div>
       </div>
       <div class="mb-3">
         <button type="submit" class="btn btn-dark add-btn">Add</button>
