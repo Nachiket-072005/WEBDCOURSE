@@ -1,11 +1,13 @@
 import "./App.css";
 import Title from "./Title.jsx";
 import ProductLists from "./ProductLists.jsx";
+import Message from "./Message.jsx";
 
 function App() {
   return (
     <>
-     <ProductLists/>
+      <Message userName="Nachiket" color="red" />
+      <ProductLists />
     </>
   );
 }
