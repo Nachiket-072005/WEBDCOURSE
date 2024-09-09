@@ -1,6 +1,7 @@
 const { error } = require("console");
 const express = require("express");
 const app = express();
+const ExpressError = require("./ExpressError");
 
 // app.use((req, res, next) => {
 //   console.log("I am a 1st middleware function");
@@ -23,7 +24,7 @@ const checkToken = (req, res, next) => {
   if (token === "giveaccess") {
     next();
   }
-  throw new Error("Access Denied!");
+  throw new ExpressError("Access Denied!", 401);
 };
 
 // app.use("/api", checkToken);
@@ -57,9 +58,22 @@ app.get("/random", (req, res) => {
   res.send("Hello, I am a random route");
 });
 
+app.get("/err", (req, res) => {
+  throw new Error("This is an error");
+});
+
+app.get("/admin", (req, res) => {
+  throw new ExpressError("You are not an admin!", 403);
+});
+
 // 404 Middleware
-app.use((req, res, next) => {
-  res.status(404).send("Page not found!");
+// app.use((req, res, next) => {
+//   res.status(404).send("Page not found!");
+// });
+
+app.use((err, req, res, next) => {
+  let { status=500, message="Some error occurred!" } = err;
+  res.status(status).send(message);
 });
 
 app.listen(3000, () => {
