@@ -1,5 +1,5 @@
-<% layout("/layouts/boilerplate.ejs") %>
-<!-- This line is added to specify the layout file to be used for this view -->
+<%- layout("layouts/boilerplate") %>
+<!-- This line specifies the layout file to be used for this view -->
 <div class="row">
   <div class="col-8 offset-2">
     <div class="mb-3"></div>
@@ -10,19 +10,20 @@
         <input
           type="text"
           id="title"
-          name="title"
+          name="listing[title]"
           placeholder="Enter a catchy title"
           class="form-control"
           required
         />
         <div class="valid-feedback">Title looks good!</div>
-        <div class="invalid-feedback">Please enter the valid title!</div>
+        <div class="invalid-feedback">Please enter a valid title!</div>
       </div>
+
       <div class="mb-3">
         <label for="description" class="form-label">Description:</label>
         <textarea
           id="description"
-          name="description"
+          name="listing[description]"
           cols="30"
           rows="10"
           placeholder="Write description here...."
@@ -31,34 +32,39 @@
         ></textarea>
         <div class="invalid-feedback">Please enter the description!</div>
       </div>
+
       <div class="mb-3">
         <label for="image" class="form-label">Image:</label>
         <input
           type="text"
           id="image"
-          name="image"
+          name="listing[image]"
           placeholder="Enter Img-URL/Link"
           class="form-control"
         />
+        <!-- You may add validation for the image URL if required -->
       </div>
+
       <div class="row">
         <div class="mb-3 col-md-4">
           <label for="price" class="form-label">Price:</label>
           <input
+            type="number"
             id="price"
-            name="price"
+            name="listing[price]"
             placeholder="1200"
             class="form-control"
             required
           />
           <div class="invalid-feedback">Please enter a valid price!</div>
         </div>
+
         <div class="mb-3 col-md-8">
           <label for="country" class="form-label">Country:</label>
           <input
             type="text"
             id="country"
-            name="country"
+            name="listing[country]"
             placeholder="India"
             class="form-control"
             required
@@ -66,18 +72,20 @@
           <div class="invalid-feedback">Please enter the country name!</div>
         </div>
       </div>
+
       <div class="mb-3">
         <label for="location" class="form-label">Location:</label>
         <input
           type="text"
           id="location"
-          name="location"
+          name="listing[location]"
           placeholder="Jaipur, Rajasthan"
           class="form-control"
           required
         />
         <div class="invalid-feedback">Please enter the location name!</div>
       </div>
+
       <div class="mb-3">
         <button type="submit" class="btn btn-dark add-btn">Add</button>
       </div>
