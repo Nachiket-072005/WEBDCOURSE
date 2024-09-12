@@ -20,7 +20,6 @@ async function main() {
   await mongoose.connect(MONGO_URL);
 }
 
-// Middleware setup
 app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
