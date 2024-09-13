@@ -34,7 +34,7 @@ router.post(
 
     await newReview.save(); // Save the review
     await listing.save(); // Save the listing with the updated review
-
+    req.flash("success", "Successfully created a new review!");
     // Redirect to the listing page after successful review creation
     res.redirect(`/listings/${listing._id}`);
   })
@@ -62,7 +62,7 @@ router.delete(
     if (!deletedReview) {
       throw new expressError(404, "Review not found");
     }
-
+    req.flash("success", "Successfully deleted the review!");
     // Redirect back to the listing page after deleting the review
     res.redirect(`/listings/${id}`);
   })
